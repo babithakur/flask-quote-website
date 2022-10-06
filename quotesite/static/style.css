@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-image: url('back2.png');
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    padding: 6%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+h2{
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
