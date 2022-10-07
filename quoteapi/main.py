@@ -31,9 +31,6 @@ class Quote(Resource):
             abort(404, message="Couldn't find quote with that id!")
         return result
 
-q = QuoteModel(quote='My another computer, is your computer!')
-db.session.add(q)
-db.session.commit()
 api.add_resource(Quote, "/<int:qid>")
 if __name__ == '__main__':
     app.run(debug=True, port=8000)
